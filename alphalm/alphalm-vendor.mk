@@ -195,6 +195,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/alphalm/proprietary/vendor/lib/libeepromcutter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeepromcutter.so \
     vendor/lge/alphalm/proprietary/vendor/lib/libfilm_emulation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation.so \
     vendor/lge/alphalm/proprietary/vendor/lib/libfilm_emulation_symphony.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation_symphony.so \
+    vendor/lge/alphalm/proprietary/vendor/lib/libimagerwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimagerwrapper.so \
     vendor/lge/alphalm/proprietary/vendor/lib/liblgae_main.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgae_main.so \
     vendor/lge/alphalm/proprietary/vendor/lib/liblgawb_main.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgawb_main.so \
     vendor/lge/alphalm/proprietary/vendor/lib/liblgdnnsnpe.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgdnnsnpe.so \
