@@ -163,6 +163,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/alphalm/proprietary/vendor/lib/libAutoContrast.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAutoContrast.so \
     vendor/lge/alphalm/proprietary/vendor/lib/libCmcPdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCmcPdaf.so \
     vendor/lge/alphalm/proprietary/vendor/lib/libCmcPdaf_tele.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCmcPdaf_tele.so \
+    vendor/lge/alphalm/proprietary/vendor/lib/libFN3DPortrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFN3DPortrait.so \
+    vendor/lge/alphalm/proprietary/vendor/lib/libFNCVCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFNCVCore.so \
+    vendor/lge/alphalm/proprietary/vendor/lib/libFNCVFD.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFNCVFD.so \
+    vendor/lge/alphalm/proprietary/vendor/lib/libFNCVFFD.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFNCVFFD.so \
+    vendor/lge/alphalm/proprietary/vendor/lib/libFNCVMeshGen.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFNCVMeshGen.so \
+    vendor/lge/alphalm/proprietary/vendor/lib/libFNCVSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFNCVSegmentation.so \
     vendor/lge/alphalm/proprietary/vendor/lib/libSJVideoNR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSJVideoNR.so \
     vendor/lge/alphalm/proprietary/vendor/lib/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE.so \
     vendor/lge/alphalm/proprietary/vendor/lib/libSRIyuv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSRIyuv.so \
@@ -186,6 +192,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/alphalm/proprietary/vendor/lib/libcinemaeffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcinemaeffect.so \
     vendor/lge/alphalm/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
     vendor/lge/alphalm/proprietary/vendor/lib/libdepthcomputation_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthcomputation_wrapper.so \
+    vendor/lge/alphalm/proprietary/vendor/lib/libeepromcutter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeepromcutter.so \
     vendor/lge/alphalm/proprietary/vendor/lib/libfilm_emulation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation.so \
     vendor/lge/alphalm/proprietary/vendor/lib/libfilm_emulation_symphony.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation_symphony.so \
     vendor/lge/alphalm/proprietary/vendor/lib/liblgae_main.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgae_main.so \
@@ -362,6 +369,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/alphalm/proprietary/vendor/lib64/libAutoContrast.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAutoContrast.so \
     vendor/lge/alphalm/proprietary/vendor/lib64/libCmcPdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCmcPdaf.so \
     vendor/lge/alphalm/proprietary/vendor/lib64/libCmcPdaf_tele.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCmcPdaf_tele.so \
+    vendor/lge/alphalm/proprietary/vendor/lib64/libFN3DPortrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFN3DPortrait.so \
+    vendor/lge/alphalm/proprietary/vendor/lib64/libFNCVCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFNCVCore.so \
+    vendor/lge/alphalm/proprietary/vendor/lib64/libFNCVFD.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFNCVFD.so \
+    vendor/lge/alphalm/proprietary/vendor/lib64/libFNCVFFD.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFNCVFFD.so \
+    vendor/lge/alphalm/proprietary/vendor/lib64/libFNCVMeshGen.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFNCVMeshGen.so \
+    vendor/lge/alphalm/proprietary/vendor/lib64/libFNCVSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFNCVSegmentation.so \
     vendor/lge/alphalm/proprietary/vendor/lib64/libSJVideoNR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSJVideoNR.so \
     vendor/lge/alphalm/proprietary/vendor/lib64/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSNPE.so \
     vendor/lge/alphalm/proprietary/vendor/lib64/libSRIyuv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSRIyuv.so \
@@ -386,8 +399,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/alphalm/proprietary/vendor/lib64/libcinemaeffect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcinemaeffect.so \
     vendor/lge/alphalm/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
     vendor/lge/alphalm/proprietary/vendor/lib64/libdepthcomputation_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdepthcomputation_wrapper.so \
+    vendor/lge/alphalm/proprietary/vendor/lib64/libeepromcutter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeepromcutter.so \
     vendor/lge/alphalm/proprietary/vendor/lib64/libfilm_emulation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfilm_emulation.so \
     vendor/lge/alphalm/proprietary/vendor/lib64/libfilm_emulation_symphony.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfilm_emulation_symphony.so \
+    vendor/lge/alphalm/proprietary/vendor/lib64/libimagerwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimagerwrapper.so \
     vendor/lge/alphalm/proprietary/vendor/lib64/liblgae_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblgae_main.so \
     vendor/lge/alphalm/proprietary/vendor/lib64/liblgawb_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblgawb_main.so \
     vendor/lge/alphalm/proprietary/vendor/lib64/liblgdnnsnpe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblgdnnsnpe.so \
