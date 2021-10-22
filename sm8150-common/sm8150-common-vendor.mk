@@ -1235,8 +1235,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     pasrservice \
     QtiTelephonyService \
-    HotwordEnrollmentOKGoogleHEXAGON \
-    HotwordEnrollmentXGoogleHEXAGON \
     dpmserviceapp \
     qcrilmsgtunnel \
     seccamservice \
